@@ -1,0 +1,44 @@
+baseURL = "https://ai.bdinsights.in/"
+languageCode = "en-us"
+title = "Bharat Data Insights"
+theme = "blowfish"
+
+[params]
+  description = "AI, reporting automation, data systems, and beneficiary reporting insights"
+
+[menus]
+
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+
+  [[menus.main]]
+    name = "Blogs"
+    pageRef = "/blogs"
+    weight = 20
+
+  [[menus.main]]
+    name = "Services"
+    pageRef = "/services"
+    weight = 30
+
+  [[menus.main]]
+    name = "Clients"
+    pageRef = "/clients"
+    weight = 40
+
+  [[menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 50
+
+  [[menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 60
+
+  [[menus.main]]
+    name = "Pay"
+    pageRef = "/pay"
+    weight = 70
