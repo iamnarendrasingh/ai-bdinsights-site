@@ -5,40 +5,41 @@ theme = "blowfish"
 
 [params]
   description = "AI, reporting automation, data systems, and beneficiary reporting insights"
+  mainSections = ["blogs"]
 
-[menus]
+[menu]
 
-  [[menus.main]]
+  [[menu.main]]
     name = "Home"
     pageRef = "/"
     weight = 10
 
-  [[menus.main]]
+  [[menu.main]]
     name = "Blogs"
     pageRef = "/blogs"
     weight = 20
 
-  [[menus.main]]
+  [[menu.main]]
     name = "Services"
     pageRef = "/services"
     weight = 30
 
-  [[menus.main]]
+  [[menu.main]]
     name = "Clients"
     pageRef = "/clients"
     weight = 40
 
-  [[menus.main]]
+  [[menu.main]]
     name = "About"
     pageRef = "/about"
     weight = 50
 
-  [[menus.main]]
+  [[menu.main]]
     name = "Contact"
     pageRef = "/contact"
     weight = 60
 
-  [[menus.main]]
-    name = "Pay"
+  [[menu.main]]
+    name = "Book Consultation"
     pageRef = "/pay"
     weight = 70
